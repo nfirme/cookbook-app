@@ -1,0 +1,45 @@
+.Landing {
+    height: calc(100vh - 48px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Landing-text {
+    font-size: 50px;
+    text-transform: lowercase;
+}
+
+.Landing-subtitle {
+    margin-bottom: 16px;
+}
+
+.title {
+    background: linear-gradient(90deg, rgba(230,64,108,1) 0%, rgba(148,90,188,1) 51%, rgba(95,176,241,1) 100%);
+    background-clip: text;
+    color: transparent;
+    text-decoration: hone;
+}
+
+.title:hover {
+    transition: text-decoration 2s linear 1s;
+    text-decoration: underline;
+}
+
+.chef-icon {
+    height: 256px;
+    margin-bottom: 16px;
+}
+
+.pink-btn {
+    color: rgb(230,64,108);
+    border-color: rgb(230,64,108);
+    box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.3);
+}
+
+.pink-btn:hover {
+    background: linear-gradient(90deg, rgba(230,64,108,1) 0%, rgba(148,90,188,1) 51%, rgba(95,176,241,1) 100%);
+    color: white;
+}
